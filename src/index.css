@@ -1,0 +1,160 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+html, body {
+  background: linear-gradient(135deg, #CDE9D6 0%, #A2D7DD 100%);
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;            /* 去掉默认外边距，让我们自己控制布局 */
+  padding: 0;
+  height: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+}
+.main1{
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+main {
+  margin:0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin: 1rem 5rem; 
+}
+
+header nav ul {
+  list-style: none;   /* 去掉 li 默认的点 */
+  display: flex;      /* 横向排列 */
+  gap: 1rem;          /* link 之间留点间距 */
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #08080d;
+  font-size: 1rem;
+  font-weight: 700;            /* 加粗 */
+  padding: 0.4rem 0.7rem;          /* 内边距，让“泡泡”更明显 */
+  border-radius: 9999px;       /* 圆角效果，形成泡泡形状 */
+  background: rgba(255, 255, 255, 0.5);  /* 半透明背景 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 透明阴影 */
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #000102;
+  /* hover 时可让背景变得更明显，阴影更深一点 */
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+.my-intro {
+  text-align: center;  /* 水平居中对齐文字 */
+  max-width: 800px;    /* 可选：限制文字的最大宽度，避免在大屏幕上太宽 */
+  margin: 4rem auto;   /* auto 会把这个容器水平居中，并在上下留 4rem 的空间 */
+}
+
+.intro-heading {
+  font-size: 4rem;    /* 比较大的字体，比如 3rem */
+  font-style: italic; /* 如果你想让它也斜体就加上 */
+  margin-bottom: 4rem; 
+}
+
+.intro-paragraph {
+  font-size: 1.25rem; /* 小一点 */
+  font-weight: 400;   /* 常规粗细 */
+  font-style: italic; /* 如果你想让它斜体就加 */
+  line-height: 1.5;
+  margin: 0 auto;     /* 让段落在容器中居中 */
+  max-width: 500px;   /* 可选：避免行太长 */
+}
+
+.welcome-text {
+  font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+}
+
+footer {
+  font-size: 0.8rem;
+  margin: 0 0 2rem 2rem;
+  color: #666;
+}
+
+h1 { /*这好像是所有header的*/
+  font-size: 3.5em;
+  line-height: 1.1;
+  font-style: italic;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
