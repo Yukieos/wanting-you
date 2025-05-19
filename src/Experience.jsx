@@ -13,8 +13,8 @@ const Experience = () => {
           <span className="time">May 2024-Aug 2024</span>
         </div>
         <ul>
-          <li>Developed dynamic pricing models, predicting optimal price adjustments based on food expiration dates and waste patterns.</li>
-          <li>Built the merchants' portal, allowing restaurant partners to track sales data in real-time.</li>
+          <li>Developed dynamic pricing models, predicting optimal price adjustments based on food expiration dates and waste patterns</li>
+          <li>Designed the merchants’ portal UI(HTML/CSS) to let restaurant partners check live sales and expiry countdowns; onboarded 24 restaurants in the first month of and released 3 UI iterations based on weekly feedback.</li>
         </ul>
       </div>
 
@@ -28,6 +28,7 @@ const Experience = () => {
         <ul>
           <li>Debugged based on user feedback and assisted in testing, improving user experience and stability.</li>
           <li>Conducted pilot testing in international schools in China, gathering student feedback to optimize UX.</li>
+          <li>Contributed to marketing strategy, achieving 20,000+ downloads.</li>
         </ul>
       </div>
     </div>
