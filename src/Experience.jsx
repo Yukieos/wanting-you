@@ -31,6 +31,21 @@ const Experience = () => {
           <li>Contributed to marketing strategy, achieving 20,000+ downloads.</li>
         </ul>
       </div>
+      
+      <h2>RESEARCH</h2>
+      
+      <div className="experience-item">
+        <h3>3Demos Research Assistant</h3>
+        <p>Applied Physics and Applied Mathematics Department, Columbia University</p>
+      </div>
+      <div className="position-time">
+        <span className="time">Apr 2025-Current</span>
+      </div>
+      <ul>
+          <li>Designing and building an interactive 3D electric field demonstration using Svelte and Three.js: users can place positive/negative charges, adjust magnitudes, and view real‑time field lines and equipotential surfaces.</li>
+          <li>Integrating this demo into the 3Demos Story Mode framework with custom UI controls, responsive canvas resizing, and shareable URL state encoding.</li>
+      </ul>
+      
     </div>
   );
 };
