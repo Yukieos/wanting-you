@@ -59,9 +59,9 @@ header {
 }
 
 header nav ul {
-  list-style: none;   /* 去掉 li 默认的点 */
-  display: flex;      /* 横向排列 */
-  gap: 1rem;          /* link 之间留点间距 */
+  list-style: none;
+  display: flex;
+  gap: 1rem;
   margin: 0;
   padding: 0;
 }
@@ -233,18 +233,14 @@ button:focus-visible {
 }
 
 .project-header h4 {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+  margin-top: 0.25rem;
   margin-right: 1rem;
 }
 
 .project-item {
   margin-bottom: 1.5rem;
-}
-
-.project-item h4 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
-  font-style: italic;
 }
 
 .degree-time {
